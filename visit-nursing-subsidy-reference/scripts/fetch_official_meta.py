@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-data.js の各 program について、officialUrl と sourceUrls[] のすべてに HTTP GET し、
+data.js および prefecture-portal-programs.js の各 program について、
+officialUrl と sourceUrls[] のすべてに HTTP GET し、
 <title> / meta description / og:description を取得して official-meta.js を出力する。
 
 ブラウザでは他ドメインを直接 fetch できない（CORS）ため、更新時はローカルで本スクリプトを実行する。
@@ -29,6 +30,7 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_JS = ROOT / "data.js"
+PORTALS_JS = ROOT / "prefecture-portal-programs.js"
 OUT_JS = ROOT / "official-meta.js"
 
 USER_AGENT = (
@@ -36,6 +38,18 @@ USER_AGENT = (
     "metadata-fetch-for-display)"
 )
 TIMEOUT_SEC = 45
+
+
+def _extract_bracket_array_inner(text: str, start_bracket: int) -> str:
+    depth = 0
+    for k in range(start_bracket, len(text)):
+        if text[k] == "[":
+            depth += 1
+        elif text[k] == "]":
+            depth -= 1
+            if depth == 0:
+                return text[start_bracket + 1 : k]
+    return ""
 
 
 def extract_programs_inner(text: str) -> str:
@@ -46,15 +60,18 @@ def extract_programs_inner(text: str) -> str:
     i = text.find("[", i)
     if i == -1:
         return ""
-    depth = 0
-    for k in range(i, len(text)):
-        if text[k] == "[":
-            depth += 1
-        elif text[k] == "]":
-            depth -= 1
-            if depth == 0:
-                return text[i + 1 : k]
-    return ""
+    return _extract_bracket_array_inner(text, i)
+
+
+def extract_portals_inner(text: str) -> str:
+    key = "var portals = ["
+    i = text.find(key)
+    if i == -1:
+        return ""
+    i = text.find("[", i)
+    if i == -1:
+        return ""
+    return _extract_bracket_array_inner(text, i)
 
 
 def program_blocks(section: str) -> list[tuple[str, str]]:
@@ -93,15 +110,21 @@ def extract_urls_from_block(block: str) -> list[str]:
     return urls
 
 
-def parse_program_sources(data_js_text: str) -> list[tuple[str, list[str]]]:
-    inner = extract_programs_inner(data_js_text)
-    if not inner.strip():
-        return []
+def parse_program_sources(data_js_text: str, portals_js_text: str | None = None) -> list[tuple[str, list[str]]]:
     out: list[tuple[str, list[str]]] = []
-    for pid, block in program_blocks(inner):
-        urls = extract_urls_from_block(block)
-        if urls:
-            out.append((pid, urls))
+    inner = extract_programs_inner(data_js_text)
+    if inner.strip():
+        for pid, block in program_blocks(inner):
+            urls = extract_urls_from_block(block)
+            if urls:
+                out.append((pid, urls))
+    if portals_js_text:
+        pinner = extract_portals_inner(portals_js_text)
+        if pinner.strip():
+            for pid, block in program_blocks(pinner):
+                urls = extract_urls_from_block(block)
+                if urls:
+                    out.append((pid, urls))
     return out
 
 
@@ -195,9 +218,10 @@ def main() -> int:
         print("Missing data.js", file=sys.stderr)
         return 1
     text = DATA_JS.read_text(encoding="utf-8")
-    items = parse_program_sources(text)
+    portals_text = PORTALS_JS.read_text(encoding="utf-8") if PORTALS_JS.is_file() else ""
+    items = parse_program_sources(text, portals_text or None)
     if not items:
-        print("No programs with URLs found in data.js", file=sys.stderr)
+        print("No programs with URLs found in data.js (and prefecture-portal-programs.js)", file=sys.stderr)
         return 1
 
     from datetime import datetime, timezone

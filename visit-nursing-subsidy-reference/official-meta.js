@@ -1,12 +1,12 @@
 /* AUTO-GENERATED — 複数公式URLから取得したメタ情報。再生成: python3 scripts/fetch_official_meta.py */
 window.OFFICIAL_PAGE_META = {
   "_meta": {
-    "generatedAt": "2026-04-04T05:34:46Z",
+    "generatedAt": "2026-04-04T07:17:30Z",
     "source": "scripts/fetch_official_meta.py",
     "note": "複数URLからメタ情報のみ自動取得。全文ではない。最終確認は利用者の責任で各公式サイトへ。"
   },
   "nat-it": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
         "requestedUrl": "https://www.it-hojo.jp/",
@@ -35,7 +35,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "nat-chusho": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
         "requestedUrl": "https://www.chusho.meti.go.jp/",
@@ -64,7 +64,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "nat-mhlw": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
         "requestedUrl": "https://www.mhlw.go.jp/",
@@ -101,7 +101,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "nat-jititai-hp": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
         "requestedUrl": "https://www.mhlw.go.jp/topics/syokuchu/kanren/hp/jititai.html",
@@ -122,7 +122,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "tokyo-fukushi": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
         "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/",
@@ -159,7 +159,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "tokyo-houkan-r7": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
         "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan/7sougoujigyougaiyou",
@@ -212,7 +212,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "tokyo-houmon-kaigo-taisei": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
         "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houmonkaigoservice",
@@ -233,7 +233,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "tokyo-hoken-zaitaku": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
         "requestedUrl": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/zaitakuryouyou/index.html",
@@ -254,7 +254,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "tokyo-kaigo-bukkakoutou-r7": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
         "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/kaigo_r7bukkakoutou",
@@ -275,7 +275,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "tokyo-sme": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
         "requestedUrl": "https://www.metro.tokyo.lg.jp/",
@@ -304,7 +304,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "tokyo-shibuya": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
         "requestedUrl": "https://www.city.shibuya.tokyo.jp/",
@@ -325,7 +325,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "machida-kaigo-jigyosha": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
         "requestedUrl": "https://www.city.machida.tokyo.jp/iryo/kaigo/business/index.html",
@@ -353,8 +353,185 @@ window.OFFICIAL_PAGE_META = {
       }
     ]
   },
-  "kanagawa-pref": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+  "fukuoka-city": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.city.fukuoka.lg.jp/",
+        "finalUrl": "https://www.city.fukuoka.lg.jp/",
+        "pageTitle": "福岡市 ホームページ",
+        "description": "福岡市の公式ホームページです。代表電話番号：092-711-4111。",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.city.fukuoka.lg.jp/soumu/jigyoushien/",
+        "finalUrl": "https://www.city.fukuoka.lg.jp/soumu/jigyoushien/",
+        "pageTitle": null,
+        "description": null,
+        "ok": false,
+        "error": "HTTP 404"
+      }
+    ]
+  },
+  "pref-portal-01": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.hokkaido.lg.jp/",
+        "finalUrl": "https://www.pref.hokkaido.lg.jp/",
+        "pageTitle": "北海道のホームページ",
+        "description": null,
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-02": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.aomori.lg.jp/",
+        "finalUrl": "https://www.pref.aomori.lg.jp/",
+        "pageTitle": "青森県庁ウェブサイト Aomori Prefectural Government",
+        "description": null,
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-03": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.iwate.jp/",
+        "finalUrl": "https://www.pref.iwate.jp/",
+        "pageTitle": "岩手県ホームページ　トップページ",
+        "description": "岩手県ホームページです。岩手県の様々な情報をお知らせします。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-04": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.miyagi.jp/",
+        "finalUrl": "https://www.pref.miyagi.jp/",
+        "pageTitle": "宮城県公式ホームページ Miyagi Prefectural Government",
+        "description": "宮城県公式ホームページです。県政、記者会見、県議会、教育委員会、入札・契約、職員採用、イベント情報など。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-05": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.akita.lg.jp/",
+        "finalUrl": "https://www.pref.akita.lg.jp/",
+        "pageTitle": "美の国あきたネット",
+        "description": "秋田県の公式ウェブサイト、美の国あきたネットです。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-06": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.yamagata.jp/",
+        "finalUrl": "https://www.pref.yamagata.jp/",
+        "pageTitle": "山形県ホームページ",
+        "description": "この山形県ホームページは、山形県が管理する行政情報などを提供しているウェブサイトです。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-07": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.fukushima.lg.jp/",
+        "finalUrl": "https://www.pref.fukushima.lg.jp/",
+        "pageTitle": "福島県ホームページ",
+        "description": "福島県の公式ホームページです。県政に関する情報、報道発表、県議会や各組織の情報、統計情報、入札・契約情報などを掲載しています。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-08": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.ibaraki.jp/",
+        "finalUrl": "https://www.pref.ibaraki.jp/",
+        "pageTitle": "ホーム／茨城県",
+        "description": "茨城県の公式ホームページへようこそ！こちらでは、県政に関する最新情報、報道発表、防災・防犯情報、観光・魅力情報、各部局や議会の情報、入札・契約情報などをお届けしております。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-09": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.tochigi.lg.jp/",
+        "finalUrl": "https://www.pref.tochigi.lg.jp/",
+        "pageTitle": "栃木県公式ホームページ",
+        "description": null,
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-10": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.gunma.jp/",
+        "finalUrl": "https://www.pref.gunma.jp/",
+        "pageTitle": "群馬県ホームページ トップページ",
+        "description": "群馬県公式ホームページです。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-11": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.saitama.lg.jp/",
+        "finalUrl": "https://www.pref.saitama.lg.jp/",
+        "pageTitle": "トップページ - 埼玉県",
+        "description": "埼玉県庁の公式ホームページ。県政に関する最新情報、報道発表、防災・防犯情報、観光・魅力情報、入札・契約情報など。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-12": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.chiba.lg.jp/",
+        "finalUrl": "https://www.pref.chiba.lg.jp/",
+        "pageTitle": "千葉県公式ホームページ",
+        "description": null,
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-14": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
         "requestedUrl": "https://www.pref.kanagawa.jp/",
@@ -374,8 +551,164 @@ window.OFFICIAL_PAGE_META = {
       }
     ]
   },
-  "osaka-pref": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+  "pref-portal-15": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.niigata.lg.jp/",
+        "finalUrl": "https://www.pref.niigata.lg.jp/",
+        "pageTitle": "新潟県ホームページ トップページ",
+        "description": "新潟県の公式ホームページ。最新情報、報道発表資料、統計情報など。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-16": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.toyama.jp/",
+        "finalUrl": "https://www.pref.toyama.jp/",
+        "pageTitle": "富山県公式ウェブサイト",
+        "description": "富山県の公式HPです。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-17": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.ishikawa.lg.jp/",
+        "finalUrl": "https://www.pref.ishikawa.lg.jp/",
+        "pageTitle": "石川県ホームページ",
+        "description": "石川県庁の公式ホームページ。県政に関する最新情報、知事記者会見、県議会、統計、入札情報など。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-18": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.fukui.lg.jp/",
+        "finalUrl": "https://www.pref.fukui.lg.jp/",
+        "pageTitle": "ホーム | 福井県ホームページ",
+        "description": null,
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-19": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.yamanashi.jp/",
+        "finalUrl": "https://www.pref.yamanashi.jp/",
+        "pageTitle": "山梨県公式ホームページ",
+        "description": "県の公式サイト。県内トピックとイベント・行政ニュース。暮らし、文化、産業、観光の情報。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-20": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.nagano.lg.jp/",
+        "finalUrl": "https://www.pref.nagano.lg.jp/",
+        "pageTitle": "長野県公式ホームページ Nagano Prefectural Government",
+        "description": "長野県の公式ホームページ。県政に関する最新情報、知事会見、各部局や議会の情報、入札・契約情報など。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-21": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.gifu.lg.jp/",
+        "finalUrl": "https://www.pref.gifu.lg.jp/",
+        "pageTitle": "岐阜県公式ホームページ トップページ",
+        "description": "岐阜県庁公式ホームページです。このサイトでは、県政に関する最新情報や防災・福祉など県民の皆様の暮らしに役立つ情報を掲載しています。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-22": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.shizuoka.jp/",
+        "finalUrl": "https://www.pref.shizuoka.jp/",
+        "pageTitle": "静岡県公式ホームページ",
+        "description": "静岡県公式ホームページ",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-23": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.aichi.jp/",
+        "finalUrl": "https://www.pref.aichi.jp/",
+        "pageTitle": "愛知県公式Webサイト",
+        "description": "愛知県の公式サイト「ネットあいち」です。「くらし・安全・環境」、「観光・文化・スポーツ」、「健康・福祉」、「教育・子育て」、「しごと・産業」、「県政情報」の6つの分類で、愛知県が提供する各種情報を掲載しております。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-24": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.mie.lg.jp/",
+        "finalUrl": "https://www.pref.mie.lg.jp/",
+        "pageTitle": "三重県",
+        "description": "三重県庁の公式ホームページです。報道発表資料や更新情報、県政スケジュールなど県民の皆さんにお知らせしたい情報を掲載しています。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-25": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.shiga.lg.jp/",
+        "finalUrl": "https://www.pref.shiga.lg.jp/",
+        "pageTitle": "滋賀県｜滋賀県ホームページ",
+        "description": null,
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-26": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.kyoto.jp/",
+        "finalUrl": "https://www.pref.kyoto.jp/",
+        "pageTitle": "京都府ホームページ",
+        "description": "京都府の公式ホームページです",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-27": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
         "requestedUrl": "https://www.pref.osaka.lg.jp/",
@@ -395,24 +728,263 @@ window.OFFICIAL_PAGE_META = {
       }
     ]
   },
-  "fukuoka-city": {
-    "fetchedAt": "2026-04-04T05:34:46Z",
+  "pref-portal-28": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
     "sources": [
       {
-        "requestedUrl": "https://www.city.fukuoka.lg.jp/",
-        "finalUrl": "https://www.city.fukuoka.lg.jp/",
-        "pageTitle": "福岡市 ホームページ",
-        "description": "福岡市の公式ホームページです。代表電話番号：092-711-4111。",
+        "requestedUrl": "https://web.pref.hyogo.lg.jp/",
+        "finalUrl": "https://web.pref.hyogo.lg.jp/",
+        "pageTitle": "兵庫県ホームページ",
+        "description": "兵庫県公式ウェブサイトです。県政ニュースや楽しいイベント情報、記者発表資料などを掲載しています。",
         "ok": true,
         "error": null
-      },
+      }
+    ]
+  },
+  "pref-portal-29": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
       {
-        "requestedUrl": "https://www.city.fukuoka.lg.jp/soumu/jigyoushien/",
-        "finalUrl": "https://www.city.fukuoka.lg.jp/soumu/jigyoushien/",
-        "pageTitle": null,
+        "requestedUrl": "https://www.pref.nara.jp/",
+        "finalUrl": "https://www.pref.nara.lg.jp/index.html",
+        "pageTitle": "奈良県公式ホームページ",
         "description": null,
-        "ok": false,
-        "error": "HTTP 404"
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-30": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.wakayama.lg.jp/",
+        "finalUrl": "https://www.pref.wakayama.lg.jp/",
+        "pageTitle": "スライドショー停止",
+        "description": "和歌山県の公式ホームページ。結婚・出産・子育て、産業・仕事、防災・生活・環境、健康・福祉、県土整備・まちづくり、文化・国際、教育・スポーツ、行政・統計などの情報を掲載。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-31": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.tottori.lg.jp/",
+        "finalUrl": "https://www.pref.tottori.lg.jp/",
+        "pageTitle": "とりネット／鳥取県公式サイト",
+        "description": "鳥取県公式ウェブサイト とりネット",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-32": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.shimane.lg.jp/",
+        "finalUrl": "https://www.pref.shimane.lg.jp/",
+        "pageTitle": "島根県：トップページ（トップ）",
+        "description": "島根県",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-33": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.okayama.jp/",
+        "finalUrl": "https://www.pref.okayama.jp/",
+        "pageTitle": "岡山県ホームページ トップページ",
+        "description": "岡山県のホームページです。県民のみなさんに役立つ情報を発信しています。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-34": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.hiroshima.lg.jp/",
+        "finalUrl": "https://www.pref.hiroshima.lg.jp/",
+        "pageTitle": "広島県公式ホームページ",
+        "description": "広島県の公式ホームページです。このサイトでは県政に関する情報や、子育て・教育・防災など、暮らしに役立つ情報を掲載しています。また、広島県の魅力や観光情報なども発信中！",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-35": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.yamaguchi.lg.jp/",
+        "finalUrl": "https://www.pref.yamaguchi.lg.jp/",
+        "pageTitle": "山口県ホームページ トップページ",
+        "description": "山口県の公式ウェブサイトです。このサイトでは県民の皆さんに役立つさまざまな情報を発信しています。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-36": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.tokushima.lg.jp/",
+        "finalUrl": "https://www.pref.tokushima.lg.jp/",
+        "pageTitle": "徳島県｜徳島県ホームページ",
+        "description": null,
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-37": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.kagawa.lg.jp/",
+        "finalUrl": "https://www.pref.kagawa.lg.jp/",
+        "pageTitle": "香川県公式ホームページ",
+        "description": null,
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-38": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.ehime.jp/",
+        "finalUrl": "https://www.pref.ehime.jp/",
+        "pageTitle": "愛媛県庁公式ホームページ トップページ",
+        "description": "愛媛県の公式ホームページです。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-39": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.kochi.lg.jp/",
+        "finalUrl": "https://www.pref.kochi.lg.jp/",
+        "pageTitle": "高知県",
+        "description": null,
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-40": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.fukuoka.lg.jp/",
+        "finalUrl": "https://www.pref.fukuoka.lg.jp/",
+        "pageTitle": "福岡県庁ホームページ トップページ",
+        "description": "福岡県の公式サイト。防災・安全、くらし・環境、健康・福祉、しごと・産業、子育て・教育、観光・文化・スポーツ、県土づくり・地域振興、県政基本情報など。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-41": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.saga.lg.jp/",
+        "finalUrl": "https://www.pref.saga.lg.jp/",
+        "pageTitle": "佐賀県",
+        "description": "佐賀県の公式ホームページです。行政情報、防災情報、くらし、健康の情報や入札、募集などの情報を掲載。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-42": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.nagasaki.jp/",
+        "finalUrl": "https://www.pref.nagasaki.jp/",
+        "pageTitle": "長崎県ホームページ",
+        "description": null,
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-43": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.kumamoto.jp/",
+        "finalUrl": "https://www.pref.kumamoto.jp/",
+        "pageTitle": "熊本県ホームページ",
+        "description": "熊本県公式ホームページです。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-44": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.oita.jp/",
+        "finalUrl": "https://www.pref.oita.jp/",
+        "pageTitle": "大分県ホームページ トップページ",
+        "description": "大分県ホームページ",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-45": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.miyazaki.lg.jp/",
+        "finalUrl": "https://www.pref.miyazaki.lg.jp/",
+        "pageTitle": "宮崎県[Miyazaki Prefecture]",
+        "description": "宮崎県の公式ホームページ。暮らし、福祉、産業等の最新の県政情報をお届けします。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-46": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.kagoshima.jp/",
+        "finalUrl": "https://www.pref.kagoshima.jp/",
+        "pageTitle": "鹿児島県公式ホームページ",
+        "description": "鹿児島県公式ホームページです。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "pref-portal-47": {
+    "fetchedAt": "2026-04-04T07:17:30Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.pref.okinawa.jp/",
+        "finalUrl": "https://www.pref.okinawa.jp/",
+        "pageTitle": "沖縄県公式ホームページ",
+        "description": "沖縄県公式ホームページです。",
+        "ok": true,
+        "error": null
       }
     ]
   }

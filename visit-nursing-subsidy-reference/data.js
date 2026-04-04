@@ -118,7 +118,7 @@ window.SUBSIDY_REFERENCE_DATA = {
       tags: ["全地域", "公式リンク集", "調査の起点"],
       summary:
         "都道府県・指定都市・中核市等の公式サイトへのリンク集です。各サイトで「保健福祉部」「福祉局」「介護保険課」「事業者の方へ」「助成・補助」などから、訪問看護・介護事業者向けの独自制度を追うための出発点になります。",
-      note: "本リファレンスの「都道府県」カードは順次追加中です。未登録の県・市でも、ここから公式へ辿り、サイト内検索（「訪問看護」「看護ステーション」「助成」等）で最新情報を確認してください。",
+      note: "都道府県庁の入口カードは全都道府県分あります（東京都は data.js 側の詳細カードと併用）。市区町村単位の独自制度は各市の公式サイトでも要確認です。",
       officialUrl: "https://www.mhlw.go.jp/topics/syokuchu/kanren/hp/jititai.html",
       sourceUrls: [
         "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/jimusyo_itiran.html",
@@ -256,34 +256,6 @@ window.SUBSIDY_REFERENCE_DATA = {
         "https://www.city.machida.tokyo.jp/iryo/syougai_hukushi/nitijoseikatsushien/homon/hokan.html",
       ],
       lastVerified: "2026-04-03",
-    },
-    {
-      id: "kanagawa-pref",
-      title: "神奈川県 事業者向け支援・融資情報（サンプル）",
-      level: "prefecture",
-      prefectureCode: "14",
-      cityCodes: null,
-      tags: ["神奈川県", "福祉・保健"],
-      summary:
-        "県の総合ポータル。中小企業向け支援に加え、福祉局・保健福祉系の助成・公募はメニューやサイト内検索（「介護」「福祉」「助成」等）から辿ることが多いです。",
-      note: "訪問看護に特化した一覧ページが無い場合があります。福祉・介護担当部局の案内を起点にしてください。",
-      officialUrl: "https://www.pref.kanagawa.jp/",
-      sourceUrls: ["https://www.kanagawa-seisha.or.jp/top/"],
-      lastVerified: "2026-04-01",
-    },
-    {
-      id: "osaka-pref",
-      title: "大阪府 中小企業・創業支援（サンプル）",
-      level: "prefecture",
-      prefectureCode: "27",
-      cityCodes: null,
-      tags: ["大阪府", "福祉・保健"],
-      summary:
-        "府の公式ポータル。中小企業支援のほか、介護・障害福祉など福祉保健系の制度・助成は府サイト内の該当部局ページから確認する形が一般的です。",
-      note: "訪問看護ステーション向けの枠は、福祉・医療のどちらの助成かで窓口が分かれることがあります。",
-      officialUrl: "https://www.pref.osaka.lg.jp/",
-      sourceUrls: ["https://www.osaka-sed-bank.jp/"],
-      lastVerified: "2026-04-01",
     },
     {
       id: "fukuoka-city",
