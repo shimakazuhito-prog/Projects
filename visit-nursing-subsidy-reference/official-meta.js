@@ -1,12 +1,12 @@
 /* AUTO-GENERATED — 複数公式URLから取得したメタ情報。再生成: python3 scripts/fetch_official_meta.py */
 window.OFFICIAL_PAGE_META = {
   "_meta": {
-    "generatedAt": "2026-04-03T15:10:17Z",
+    "generatedAt": "2026-04-04T05:34:46Z",
     "source": "scripts/fetch_official_meta.py",
     "note": "複数URLからメタ情報のみ自動取得。全文ではない。最終確認は利用者の責任で各公式サイトへ。"
   },
   "nat-it": {
-    "fetchedAt": "2026-04-03T15:10:17Z",
+    "fetchedAt": "2026-04-04T05:34:46Z",
     "sources": [
       {
         "requestedUrl": "https://www.it-hojo.jp/",
@@ -25,8 +25,8 @@ window.OFFICIAL_PAGE_META = {
         "error": "timeout"
       },
       {
-        "requestedUrl": "https://www.jizokuka-portal.jp/",
-        "finalUrl": "https://www.jizokuka-portal.jp/",
+        "requestedUrl": "https://portal.jizokuka-portal.go.jp/",
+        "finalUrl": "https://portal.jizokuka-portal.go.jp/",
         "pageTitle": null,
         "description": null,
         "ok": false,
@@ -35,7 +35,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "nat-chusho": {
-    "fetchedAt": "2026-04-03T15:10:17Z",
+    "fetchedAt": "2026-04-04T05:34:46Z",
     "sources": [
       {
         "requestedUrl": "https://www.chusho.meti.go.jp/",
@@ -64,7 +64,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "nat-mhlw": {
-    "fetchedAt": "2026-04-03T15:10:17Z",
+    "fetchedAt": "2026-04-04T05:34:46Z",
     "sources": [
       {
         "requestedUrl": "https://www.mhlw.go.jp/",
@@ -83,8 +83,37 @@ window.OFFICIAL_PAGE_META = {
         "error": null
       },
       {
-        "requestedUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hokabunya/0000170211.html",
-        "finalUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hokabunya/0000170211.html",
+        "requestedUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/index.html",
+        "finalUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/index.html",
+        "pageTitle": "福祉・介護 ｜厚生労働省",
+        "description": null,
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/kaigo_koureisha/index.html",
+        "finalUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/kaigo_koureisha/index.html",
+        "pageTitle": "介護・高齢者福祉 ｜厚生労働省",
+        "description": "介護・高齢者福祉について紹介しています。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "nat-jititai-hp": {
+    "fetchedAt": "2026-04-04T05:34:46Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.mhlw.go.jp/topics/syokuchu/kanren/hp/jititai.html",
+        "finalUrl": "https://www.mhlw.go.jp/topics/syokuchu/kanren/hp/jititai.html",
+        "pageTitle": "�s���{���������̃z�[���y�[�W�b�����J����",
+        "description": "�s���{���������̃z�[���y�[�W�ɂ��ďЉ�Ă��܂��B",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/jimusyo_itiran.html",
+        "finalUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/jimusyo_itiran.html",
         "pageTitle": null,
         "description": null,
         "ok": false,
@@ -92,8 +121,161 @@ window.OFFICIAL_PAGE_META = {
       }
     ]
   },
+  "tokyo-fukushi": {
+    "fetchedAt": "2026-04-04T05:34:46Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/",
+        "finalUrl": "https://www.fukushi.metro.tokyo.lg.jp/",
+        "pageTitle": "東京都福祉局",
+        "description": "東京都福祉局のページです。",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan",
+        "finalUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan",
+        "pageTitle": "訪問看護推進総合事業|介護保険|東京都福祉局",
+        "description": "東京都福祉局の訪問看護推進総合事業(介護保険)のページです。",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/index.html",
+        "finalUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei",
+        "pageTitle": "高齢者|東京都福祉局",
+        "description": "東京都福祉局の高齢者のページです。",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/shougai/index.html",
+        "finalUrl": "https://www.fukushi.metro.tokyo.lg.jp/shougai",
+        "pageTitle": "障害者|東京都福祉局",
+        "description": "東京都福祉局の障害者のページです。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "tokyo-houkan-r7": {
+    "fetchedAt": "2026-04-04T05:34:46Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan/7sougoujigyougaiyou",
+        "finalUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan/7sougoujigyougaiyou",
+        "pageTitle": "【全体】令和7年度訪問看護推進総合事業のご案内|訪問看護推進総合事業|東京都福祉局",
+        "description": "東京都福祉局の【全体】令和7年度訪問看護推進総合事業のご案内(訪問看護推進総合事業)のページです。",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan/7daitai",
+        "finalUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan/7daitai",
+        "pageTitle": "【補助金】令和7年度訪問看護ステーション代替職員（産休等）確保支援事業|訪問看護推進総合事業|東京都福祉局",
+        "description": "東京都福祉局の【補助金】令和7年度訪問看護ステーション代替職員（産休等）確保支援事業(訪問看護推進総合事業)のページです。",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan/7jimu",
+        "finalUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan/7jimu",
+        "pageTitle": "【補助金】令和7年度訪問看護ステーション等事務職員雇用支援事業|訪問看護推進総合事業|東京都福祉局",
+        "description": "東京都福祉局の【補助金】令和7年度訪問看護ステーション等事務職員雇用支援事業(訪問看護推進総合事業)のページです。",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan/7ikusei",
+        "finalUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan/7ikusei",
+        "pageTitle": "【補助金】令和7年度東京都新任訪問看護師育成支援事業|訪問看護推進総合事業|東京都福祉局",
+        "description": "東京都福祉局の【補助金】令和7年度東京都新任訪問看護師育成支援事業(訪問看護推進総合事業)のページです。",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan/7nintei",
+        "finalUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan/7nintei",
+        "pageTitle": "【補助金】令和7年度訪問看護ステーションにおける認定看護師資格取得支援事業|訪問看護推進総合事業|東京都福祉局",
+        "description": "東京都福祉局の【補助金】令和7年度訪問看護ステーションにおける認定看護師資格取得支援事業のページです。",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.jgrants-portal.go.jp/",
+        "finalUrl": "https://www.jgrants-portal.go.jp/",
+        "pageTitle": "Jグランツ ネットで簡単！補助金申請 | Jグランツ",
+        "description": "Jグランツはデジタル庁が運営する、国や自治体の補助金の電子申請システムです。個人事業主や中小企業等の法人はGビズIDを利用し、補助金・助成金を簡単に検索・申請できます。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "tokyo-houmon-kaigo-taisei": {
+    "fetchedAt": "2026-04-04T05:34:46Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houmonkaigoservice",
+        "finalUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houmonkaigoservice",
+        "pageTitle": "訪問介護等サービス提供体制確保支援事業|介護保険|東京都福祉局",
+        "description": "東京都福祉局の訪問介護等サービス提供体制確保支援事業のページです。",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan",
+        "finalUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/houkan",
+        "pageTitle": "訪問看護推進総合事業|介護保険|東京都福祉局",
+        "description": "東京都福祉局の訪問看護推進総合事業(介護保険)のページです。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "tokyo-hoken-zaitaku": {
+    "fetchedAt": "2026-04-04T05:34:46Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/zaitakuryouyou/index.html",
+        "finalUrl": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/zaitakuryouyou",
+        "pageTitle": "在宅療養|医療・保健施策|東京都保健医療局",
+        "description": "東京都保健医療局の在宅療養(医療・保健施策)のページです。",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/zaitakuryouyou/taiinnshienn.html",
+        "finalUrl": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/zaitakuryouyou/taiinnshienn",
+        "pageTitle": "東京都退院支援マニュアル（平成28年3月改訂版）|在宅療養|東京都保健医療局",
+        "description": "東京都保健医療局の東京都退院支援マニュアル（平成28年3月改訂版）(在宅療養)のページです。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
+  "tokyo-kaigo-bukkakoutou-r7": {
+    "fetchedAt": "2026-04-04T05:34:46Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/kaigo_r7bukkakoutou",
+        "finalUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/kaigo_r7bukkakoutou",
+        "pageTitle": "令和7年度上半期介護サービス事業所燃料費高騰緊急対策支援金事業|高齢者|東京都福祉局",
+        "description": "令和７年度東京都福祉局の介護サービス事業所燃料費高騰緊急対策支援金事業(高齢者)のページです。",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/shisetu/bukkakoutou7",
+        "finalUrl": "https://www.fukushi.metro.tokyo.lg.jp/kourei/shisetu/bukkakoutou7",
+        "pageTitle": "令和7年度上半期特別養護老人ホーム等物価高騰緊急対策支援事業|高齢者施設|東京都福祉局",
+        "description": "東京都では物価高騰等に直面する高齢者施設を支援することを目的として、物価高騰緊急対策支援金を交付します。",
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
   "tokyo-sme": {
-    "fetchedAt": "2026-04-03T15:10:17Z",
+    "fetchedAt": "2026-04-04T05:34:46Z",
     "sources": [
       {
         "requestedUrl": "https://www.metro.tokyo.lg.jp/",
@@ -122,7 +304,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "tokyo-shibuya": {
-    "fetchedAt": "2026-04-03T15:10:17Z",
+    "fetchedAt": "2026-04-04T05:34:46Z",
     "sources": [
       {
         "requestedUrl": "https://www.city.shibuya.tokyo.jp/",
@@ -142,8 +324,37 @@ window.OFFICIAL_PAGE_META = {
       }
     ]
   },
+  "machida-kaigo-jigyosha": {
+    "fetchedAt": "2026-04-04T05:34:46Z",
+    "sources": [
+      {
+        "requestedUrl": "https://www.city.machida.tokyo.jp/iryo/kaigo/business/index.html",
+        "finalUrl": "https://www.city.machida.tokyo.jp/iryo/kaigo/business/index.html",
+        "pageTitle": "介護保険に関する事業者の方へ/町田市ホームページ",
+        "description": "各種概要や申請方法などを掲載しています。",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.city.machida.tokyo.jp/iryo/kaigo/business/bukkakofusinsei.html",
+        "finalUrl": "https://www.city.machida.tokyo.jp/iryo/kaigo/business/bukkakofusinsei.html",
+        "pageTitle": "町田市介護サービス事業所等物価高騰対策支援給付金の交付申請について【申請受付終了】/町田市ホームページ",
+        "description": null,
+        "ok": true,
+        "error": null
+      },
+      {
+        "requestedUrl": "https://www.city.machida.tokyo.jp/iryo/syougai_hukushi/nitijoseikatsushien/homon/hokan.html",
+        "finalUrl": "https://www.city.machida.tokyo.jp/iryo/syougai_hukushi/nitijoseikatsushien/homon/hokan.html",
+        "pageTitle": "訪問看護ステーション/町田市ホームページ",
+        "description": null,
+        "ok": true,
+        "error": null
+      }
+    ]
+  },
   "kanagawa-pref": {
-    "fetchedAt": "2026-04-03T15:10:17Z",
+    "fetchedAt": "2026-04-04T05:34:46Z",
     "sources": [
       {
         "requestedUrl": "https://www.pref.kanagawa.jp/",
@@ -164,7 +375,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "osaka-pref": {
-    "fetchedAt": "2026-04-03T15:10:17Z",
+    "fetchedAt": "2026-04-04T05:34:46Z",
     "sources": [
       {
         "requestedUrl": "https://www.pref.osaka.lg.jp/",
@@ -185,7 +396,7 @@ window.OFFICIAL_PAGE_META = {
     ]
   },
   "fukuoka-city": {
-    "fetchedAt": "2026-04-03T15:10:17Z",
+    "fetchedAt": "2026-04-04T05:34:46Z",
     "sources": [
       {
         "requestedUrl": "https://www.city.fukuoka.lg.jp/",
