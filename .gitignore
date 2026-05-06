@@ -1,5 +1,4 @@
-# ルート直下は visit-nursing-subsidy-reference のみ追跡（他は status に出さない）
-# 別フォルダも載せるときは !/フォルダ名/ を追加
+# Projectsルートはワークスペース。各プロジェクトは独立リポジトリで管理。
+# ルート直下では何も追跡しない（.gitignore のみ追跡）。
 /*
 !/.gitignore
-!/visit-nursing-subsidy-reference/
