@@ -2,3 +2,5 @@
 # ルート直下では何も追跡しない（.gitignore のみ追跡）。
 /*
 !/.gitignore
+.vercel
+.env*.local
